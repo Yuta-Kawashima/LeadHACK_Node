@@ -1,0 +1,22 @@
+{
+  "name": "leadhack_node",
+  "version": "1.0.0",
+  "description": "development Node.js Server at LeadHACK is university circle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuta-Kawashima/LeadHACK_Node.git"
+  },
+  "author": "Yuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuta-Kawashima/LeadHACK_Node/issues"
+  },
+  "homepage": "https://github.com/Yuta-Kawashima/LeadHACK_Node#readme",
+  "dependencies": {
+    "ejs": "^3.0.1"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+        <meta http-equiv="content-type" content="text/html"; charset = "UTF-8">
+        <link type='text/css' href="./public/style.css" rel = "stylesheet">
+        <title><%=title %></title>
+        <!--
+            <title>Index</title>
+        -->
+    </head>
+    <body>
+        <head>
+            <h1><%=title %></h1>
+            <!--<h1>Index</h1>-->
+        </head>
+        <div role = "main">
+            <p><%=content %></p>
+            <p><table>
+                <% for (var key in data) { %>
+                    <tr>
+                        <th><%= key %></th>
+                        <td><%= data[key] %></td>
+                    </tr>
+                <% } %>
+            </table></p>
+            <!--
+                <form method='post' action='/public/other'>
+                    <p>
+                        <input type="text" name="msg">
+                        <input type="submit" value = "Click">
+                    </p>
+                </form>
+            -->
+            <!--
+                <p>This is Index Page.</p>
+                <p>これはejsを用いたWebページです。</p>
+            -->
+            <p><a href = "./public/other">Other Pageに移動　&gt;&gt;</a></p>
+        </div>
+    </body>
+</html>
